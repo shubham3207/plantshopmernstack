@@ -22,12 +22,12 @@ const UpdateOrder = ({match}) => {
   const { error: updateError, isUpdated } = useSelector(
     (state) => state.deleteOrder
   );
-//   const updateOrderSubmitHandler = (e) => {
-//     e.preventDefault();
-//     const myForm = new FormData();
-//     myForm.set("status", status);
-//     dispatch(updateOrder(match.params.id, myForm));
-//   };
+  const updateOrderSubmitHandler = (e) => {
+    e.preventDefault();
+    const myForm = new FormData();
+    myForm.set("status", status);
+    dispatch(updateOrder(match.params.id, myForm));
+  };
 //   const dispatch = useDispatch();
 //   const [status, setStatus] = useState("");
 //   useEffect(() => {
