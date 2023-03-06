@@ -19,9 +19,9 @@ const UpdateOrder = ({match}) => {
   const { order, error, loading } = useSelector(
     (state) => state.myOrderDetails
   );
-//   const { error: updateError, isUpdated } = useSelector(
-//     (state) => state.deleteOrder
-//   );
+  const { error: updateError, isUpdated } = useSelector(
+    (state) => state.deleteOrder
+  );
 //   const updateOrderSubmitHandler = (e) => {
 //     e.preventDefault();
 //     const myForm = new FormData();
