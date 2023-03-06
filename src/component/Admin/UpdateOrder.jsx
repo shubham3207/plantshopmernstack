@@ -3,11 +3,11 @@ import MetaData from "../../more/MetaData";
 import { Link } from "react-router-dom";
 import { Typography } from "@material-ui/core";
 import SideBar from "./Sidebar";
-// import {
-//   getOrderDetails,
-//   clearErrors,
-//   updateOrder,
-// } from "../../actions/OrderAction";
+import {
+  getOrderDetails,
+  clearErrors,
+  updateOrder,
+} from "../../actions/OrderAction";
 // import { useSelector, useDispatch } from "react-redux";
 // import Loading from "../../more/Loader";
 // import AccountTreeIcon from "@material-ui/icons/AccountTree";
