@@ -15,10 +15,10 @@ import { Button } from "@material-ui/core";
 import { UPDATE_ORDER_RESET } from "../../constants/OrderConstants";
 import "./UpdateOrder.css";
 import { ToastContainer, toast } from "react-toastify";
-// const UpdateOrder = ({match}) => {
-//   const { order, error, loading } = useSelector(
-//     (state) => state.myOrderDetails
-//   );
+const UpdateOrder = ({match}) => {
+  const { order, error, loading } = useSelector(
+    (state) => state.myOrderDetails
+  );
 //   const { error: updateError, isUpdated } = useSelector(
 //     (state) => state.deleteOrder
 //   );
