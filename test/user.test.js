@@ -158,8 +158,8 @@ describe("florashop User API TEST", () => {
         .post("/api/v2/register")
 
         .send({
-          name:"mohansapkota",
-          email: "mohan11@gmail.com",
+          name:"mohansapkotass",
+          email: "mohan1111@gmail.com",
 
           password: "123456789",
           image:"https://example.com/profile.jpg",
